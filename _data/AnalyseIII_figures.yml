@@ -1,19 +1,19 @@
 - title: "Surface integral of a scalar field"
-  image: "{{ site.baseurl }}/assets/AnalyseIII/4.1.1.png"
+  image: "assets/AnalyseIII/4.1.1.png"
   properties:
     subject: "Vector Analysis"
     resolution: 
     format: "PNG"
 
 - title: "The divergence theorem"
-  image: "{{ site.baseurl }}/assets/AnalyseIII/4.4.1.png"
+  image: "assets/AnalyseIII/4.4.1.png"
   properties:
     subject: "Vector Analysis"
     resolution: 
     format: "PNG"
 
 - title: "Corkscrew rule"
-  image: "{{ site.baseurl }}/assets/AnalyseIII/4.6.1.png"
+  image: "assets/AnalyseIII/4.6.1.png"
   properties:
     subject: "Vector Analysis"
     resolution:

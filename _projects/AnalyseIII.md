@@ -15,7 +15,7 @@ excerpt: "<strong>Vector analysis</strong>: curves, fields , line- and surface i
 <div class="figures-gallery">
   {% for figure in figures %}
     <div class="figure-item">
-      <img src="{{ figure.image }}" />
+      <img src="{{ site.baseurl }}/{{ figure.image }}" />
       <p>Subject: {{ figure.properties.subject }}</p>
     </div>
   {% endfor %}
