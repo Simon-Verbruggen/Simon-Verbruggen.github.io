@@ -2,8 +2,8 @@
 layout: default
 title: "Analyse III"
 thumbnail: "assets/AnalyseIII/AnalyseIII_thumbnail.png"
-excerpt: "<strong> Vector analysis: curves, fields <strong>, line- and surface integrals... <br>
-<strong> Complex analysis:holomorphic functions <strong>, series, residue theorem..."  
+excerpt: "<strong> Vector analysis: curves, fields </strong>, line- and surface integrals... <br>
+<strong> Complex analysis:holomorphic functions </strong>, series, residue theorem..."  
 ---
 <h1>Analyse III<h1>
 
