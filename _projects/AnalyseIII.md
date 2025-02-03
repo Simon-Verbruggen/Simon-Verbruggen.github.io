@@ -4,4 +4,8 @@ thumbnail: "assets/AnalyseIII/AnalyseIII_thumbnail.pdf"
 ---
 The course Analyse III of the second bachelor.
 
-<iframe src="{{ site.baseurl }}/assets/AnalyseIII/AnalyseIII.pdf" width="600" height="400"></iframe>
+<div class="container">
+    <div class="h_iframe">
+        <iframe src="{{ site.baseurl }}/assets/AnalyseIII/AnalyseIII.pdf" frameborder="0" allowfullscreen></iframe>
+    </div>
+</div>
