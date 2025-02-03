@@ -13,7 +13,8 @@ excerpt: "<strong>Vector analysis</strong>: curves, fields , line- and surface i
   {% for figure in figures %}
     <div class="figure-item">
       <h3>{{ figure.title }}</h3>
-      <img src="{{ site.baseurl }}/{{ figure.image }}" style="max-width: 70%; height: auto;"/>
+      <center><img src="{{ site.baseurl }}/{{ figure.image }}" style="max-width: 70%; height: auto;"/></center>
+      <br>
     </div>
   {% endfor %}
 </div>
