@@ -11,7 +11,7 @@ layout: home
   {% for project in site.projects %}
     <div class="project">
       <h3><a href="{{ project.url }}">{{ project.title }}</a></h3>
-      <img src="{{ project.thumbnail }}" style="max-width: 50%; height: auto;" />
+      <img src="{{ project.thumbnail }}" style="max-width: 70%; height: auto;" />
       <p>{{ project.excerpt }}</p>
     </div>
   {% endfor %}
