@@ -1,9 +1,11 @@
 ---
 layout: default
 title: "Analyse III"
-thumbnail: "assets/AnalyseIII/AnalyseIII_thumbnail.pdf"
+thumbnail: "assets/AnalyseIII/AnalyseIII_thumbnail.png"
 ---
-<h1>The course Analyse III of the second bachelor.<h1>
+<h1>Analyse III<h1>
+
+PDF of all the figures.
 
 <html>
   <head>
@@ -14,4 +16,5 @@ thumbnail: "assets/AnalyseIII/AnalyseIII_thumbnail.pdf"
     <object data="{{ site.baseurl }}/assets/AnalyseIII/AnalyseIII.pdf" type="application/pdf" style="min-height:100vh;width:100%"></object>
   </body>
 </html>
+
 
