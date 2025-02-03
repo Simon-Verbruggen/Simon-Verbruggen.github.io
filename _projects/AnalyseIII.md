@@ -12,8 +12,8 @@ excerpt: "<strong>Vector analysis</strong>: curves, fields , line- and surface i
 <div class="figures-gallery">
   {% for figure in figures %}
     <div class="figure-item">
-      <img src="{{ site.baseurl }}/{{ figure.image }}" alt="{{ figure.title }}" style="max-width: 70%; height: auto;"/>
-      <p>Subject: {{ figure.properties.subject }}</p>
+      <h3>{{ figure.title }}</h3>
+      <img src="{{ site.baseurl }}/{{ figure.image }}" style="max-width: 70%; height: auto;"/>
     </div>
   {% endfor %}
 </div>
