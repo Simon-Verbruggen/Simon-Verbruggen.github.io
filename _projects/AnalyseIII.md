@@ -9,7 +9,7 @@ excerpt: "<strong>Vector analysis</strong>: curves, fields , line- and surface i
 <h1>Analyse III</h1>
 
 <h2>Trial</h2>
- <img src="assets/AnalyseIII/4.1.1.png" style="max-width: 70%; height: auto;" />
+ <img src="{{ site.baseurl }}/assets/AnalyseIII/4.1.1.png" style="max-width: 70%; height: auto;" />
 
 {% assign figures = site.data[page.figures_data] %}
 <div class="figures-gallery">
