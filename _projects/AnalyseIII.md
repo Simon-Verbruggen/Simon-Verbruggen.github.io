@@ -1,4 +1,5 @@
 ---
+layout: default
 title: "Analyse III"
 thumbnail: "assets/AnalyseIII/AnalyseIII_thumbnail.pdf"
 ---
