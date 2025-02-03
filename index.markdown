@@ -5,7 +5,7 @@
 layout: home
 ---
 
-<h2>Our Projects</h2>
+<h2>Projects</h2>
 
 <div class="projects">
   {% for project in site.projects %}
