@@ -2,10 +2,23 @@
 layout: default
 title: "Analyse III"
 thumbnail: "assets/AnalyseIII/AnalyseIII_thumbnail.png"
+figures_data: "AnalyseIII_figures"
 excerpt: "<strong>Vector analysis</strong>: curves, fields , line- and surface integrals... <br>
 <strong>Complex analysis</strong>: holomorphic functions, series, residue theorem..."  
 ---
 <h1>Analyse III<h1>
+
+{% assign figures = site.data[page.figures_data] %}
+<div class="figures-gallery">
+  {% for figure in figures %}
+    <div class="figure-item">
+      <h3>{{ figure.title }}</h3>
+      <img src="{{ figure.image }}" alt="{{ figure.title }}" />
+      <p>Subject: {{ figure.properties.subject }}</p>
+      <p>Resolution: {{ figure.properties.resolution }}</p>
+    </div>
+  {% endfor %}
+</div>
 
 PDF of all the figures.
 
