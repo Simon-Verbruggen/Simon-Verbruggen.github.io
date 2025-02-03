@@ -4,7 +4,6 @@ thumbnail: "assets/AnalyseIII/AnalyseIII_thumbnail.pdf"
 ---
 The course Analyse III of the second bachelor.
 
-<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8" />
