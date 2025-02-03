@@ -2,14 +2,14 @@
   image: "{{ site.baseurl }}/assets/AnalyseIII/4.1.1.png"
   properties:
     subject: "Vector Analysis"
-    resolution:
+    resolution: "836x661"
     format: "PNG"
 
 - title: "The divergence theorem"
   image: "{{ site.baseurl }}/assets/AnalyseIII/4.4.1.png"
   properties:
     subject: "Vector Analysis"
-    resolution:
+    resolution: 
     format: "PNG"
 
 - title: "Corkscrew rule"
