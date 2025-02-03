@@ -2,7 +2,7 @@
   image: "{{ site.baseurl }}/assets/AnalyseIII/4.1.1.png"
   properties:
     subject: "Vector Analysis"
-    resolution: "836x661"
+    resolution: 
     format: "PNG"
 
 - title: "The divergence theorem"
