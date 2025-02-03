@@ -10,7 +10,7 @@ layout: home
 <div class="projects">
   {% for project in site.projects %}
     <div class="project">
-      <img src="{{ project.thumbnail }}" alt="{{ project.title }} thumbnail" />
+      <iframe src="{{ project.thumbnail }}" width="300" height="200"></iframe>
       <h3><a href="{{ project.url }}">{{ project.title }}</a></h3>
       <p>{{ project.excerpt }}</p>
     </div>
