@@ -8,14 +8,11 @@ excerpt: "<strong>Vector analysis</strong>: curves, fields , line- and surface i
 ---
 <h1>Analyse III</h1>
 
-<h2>Trial</h2>
- <img src="{{ site.baseurl }}/assets/AnalyseIII/4.1.1.png" style="max-width: 70%; height: auto;" />
-
 {% assign figures = site.data[page.figures_data] %}
 <div class="figures-gallery">
   {% for figure in figures %}
     <div class="figure-item">
-      <img src="{{ site.baseurl }}/{{ figure.image }}" />
+      <img src="{{ site.baseurl }}/{{ figure.image }}" alt="{{ figure.title }}" style="max-width: 70%; height: auto;"/>
       <p>Subject: {{ figure.properties.subject }}</p>
     </div>
   {% endfor %}
