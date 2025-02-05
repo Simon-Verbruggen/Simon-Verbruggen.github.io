@@ -6,7 +6,7 @@ figures_data: "Analyse_III_figures"
 excerpt: "<strong>Vector analysis</strong>: curves, fields , line- and surface integrals... <br>
 <strong>Complex analysis</strong>: holomorphic functions, series, residue theorem..."  
 ---
-<h1>site.data[page.title]</h1>
+<h1>{{ page.title }}</h1>
 
 {% assign figures = site.data[page.figures_data] %}
 <div class="figures-gallery">

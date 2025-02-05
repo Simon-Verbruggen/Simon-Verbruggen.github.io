@@ -38,7 +38,6 @@ plugins:
 collections:
   projects:
     output: true
-    permalink: /projects/:name/
 
 
 

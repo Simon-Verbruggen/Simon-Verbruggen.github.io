@@ -10,7 +10,7 @@ layout: home
 <div class="projects">
   {% for project in site.projects %}
     <div class="project">
-      <h3><a href="{{ project.url }}">{{ project.url }}</a></h3>
+      <h3><a href="{{ site.baseurl }}{{ project.url }}">{{ project.title }}</a></h3>
       <img src="{{ project.thumbnail }}" style="max-width: 70%; height: auto;" />
       <p>{{ project.excerpt }}</p>
     </div>
