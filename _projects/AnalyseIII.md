@@ -1,8 +1,8 @@
 ---
 layout: default
 title: "Analyse III"
-thumbnail: "assets/AnalyseIII/AnalyseIII_thumbnail.png"
-figures_data: "AnalyseIII_figures"
+thumbnail: "assets/AnalyseIII/Analyse_III_thumbnail.png"
+figures_data: "Analyse_III_figures"
 excerpt: "<strong>Vector analysis</strong>: curves, fields , line- and surface integrals... <br>
 <strong>Complex analysis</strong>: holomorphic functions, series, residue theorem..."  
 ---
@@ -12,7 +12,7 @@ excerpt: "<strong>Vector analysis</strong>: curves, fields , line- and surface i
 <div class="figures-gallery">
   {% for figure in figures %}
     <div class="figure-item">
-      <h3>{{ figure.title }}</h3>
+      <h3>{{ figure.title }}:</h3>
       <center><img src="{{ site.baseurl }}/{{ figure.image }}" style="max-width: 70%; height: auto;"/></center>
       <br>
     </div>
