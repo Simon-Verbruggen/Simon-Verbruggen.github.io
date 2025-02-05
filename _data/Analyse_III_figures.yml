@@ -13,7 +13,7 @@
     format: "PNG"
 
 - title: "Corkscrew rule"
-  image: assets/generated_figures/Analyse_III/4.6.1.png"
+  image: "assets/generated_figures/Analyse_III/4.6.1.png"
   properties:
     subject: "Vector Analysis"
     resolution:
