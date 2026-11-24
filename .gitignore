@@ -7,3 +7,7 @@ gemfile.lock
 
 # MAC
 .DS_Store
+
+# julia artifacts
+data/
+Manifest.toml
