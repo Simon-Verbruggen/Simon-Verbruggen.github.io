@@ -69,8 +69,8 @@ end
     fcr2, geo2 = facecurrents(u.coeffs, u.space)
     cmin = 0.0
     cmax = maximum(norm.(fcr1))
-    plt1 = PlotlyJS.plot(patch(geo1, fcr1; caxis=(cmin, cmax)))
-    plt2 = PlotlyJS.plot(patch(geo2, norm.(fcr2); caxis=(cmin, cmax)))
+    plt1 = PlotlyJS.plot(patch(geo1, fcr1; caxis=(cmin, cmax)), Layout(template="plotly_white"))
+    plt2 = PlotlyJS.plot(patch(geo2, norm.(fcr2); caxis=(cmin, cmax)), Layout(template="plotly_white"))
 
     PlotlyJS.savefig(plt1, save_path * "mie.html")
     PlotlyJS.savefig(plt2, save_path * "efie.html")
