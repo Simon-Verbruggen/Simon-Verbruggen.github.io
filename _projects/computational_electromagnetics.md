@@ -2,13 +2,12 @@
 layout: default
 title: "Computational electromagnetics"
 thumbnail: "assets/figures/bunny_efie.png"
-figures_data: "Analyse_III_figures"
 excerpt: "Introduction on computational electromagnetics."  
 ---
 <h1>{{ page.title }}</h1>
 
 <h2> Step 1: discretize the geometry</h2>
-Approximate the geometry with elements (triangles, rectangles, etc.) forming a surface mesh.
+Approximate the geometry with elements (triangles, rectangles, etc.) forming a mesh.
 <figure style="width: 100%; margin: 0; text-align: center;">
     <iframe
         src="{{ '/assets/htmls/wireframe_sphere.html' | relative_url }}"
